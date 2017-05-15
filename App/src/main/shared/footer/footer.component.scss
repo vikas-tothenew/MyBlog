@@ -1,0 +1,25 @@
+:host{	
+    display:block;
+}
+
+.site-footer{
+  height: 43px; 
+}
+
+.footer-bottom{
+	background-color:#666;
+	a{
+		color:#fff;	
+		text-decoration:none;
+		font-size: .7500em !important; 
+	}
+	p{
+		color: #fff;
+    	line-height: 22px;
+    	margin: 10px;
+    	font-size:14px;
+	}
+	.logo img{
+		margin-top: 2.5px;
+	}
+}

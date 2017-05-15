@@ -1,0 +1,29 @@
+<div class="row category-portfolio">
+	
+	<div class="col-sm-3">
+		<div class="category-nav">
+			<ul>
+				<!-- <li class="active"><a class=""><i class="fa fa-globe" > </i> All</a></li>
+				<li><a class="">CMS</a></li>
+				<li><a class=""><i class="fa fa-comments" aria-hidden="true"> </i> Social Media</a></li><!-->
+				
+				<li *ngFor="let category of categories" [class.active]="category.active" (click)="selectCategory(category.categoryId)">
+                    <a class=""><img *ngIf="category.catagoryImageUrl" src="{{ category.catagoryImageUrl }}" /> <i *ngIf="!category.catagoryImageUrl && category.categoryIcon" class="{{category.categoryIcon}}" aria-hidden="true"> </i>  {{ category.categoryName }}</a>
+                </li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="col-sm-9 category-porfolio-wrap">
+		
+		<div class="items row">
+			
+			<cw-item-preview *ngFor="let item of items" [data]="item" [selectedCat]="selectedCat"></cw-item-preview>
+		
+		</div>
+		
+	
+	</div>
+		
+</div>

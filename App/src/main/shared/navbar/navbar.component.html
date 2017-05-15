@@ -1,0 +1,92 @@
+<section id="pav-mainnav" class="mg-bottom-0">			
+	<div class="container" #container>
+		<div class="row">
+			<div class="waper col-lg-12">
+				
+				<!-- <cw-menubar></cw-menubar> -->
+				
+				<!-- <cw-searchbox></cw-searchbox> -->	
+				
+				<div class="pav-megamenu pad-right-0" id="menubar">
+					<div class="navbar navbar-default">
+						<div id="mainmenutop" class="megamenu" role="navigation">
+							<div class="navbar-header">
+								<a class="navbar-toggle hidden-lg hidden-md" href="javascript:;" data-target=".navbar-collapse" data-toggle="collapse">
+						        	<span class="fa fa-bars"></span>		        
+						     	</a>
+								<div class="collapse navbar-collapse navbar-ex1-collapse hidden-sm hidden-xs pad-left-0 pad-right-0"> 
+									<ul class="nav navbar-nav megamenu">
+										<li class="home">
+											<a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><span class="menu-title">{{ 'NAVIGATION.DIRECTORY' | translate }}</span></a>
+										</li>
+										<li class="full-width menu1 parent dropdown ">
+											<a [routerLink]="['/integration']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><span class="menu-title">{{ 'NAVIGATION.INTEGERATION' | translate }}</span></a>
+										</li>
+										<li class="menu2">
+											<a [routerLink]="['/developer']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><span class="menu-title">{{ 'NAVIGATION.DEVELOPER' | translate }}</span></a>
+										</li>
+										<li class="parent dropdown pav-parrent menu3">
+											<a [routerLink]="['/faq']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><span class="menu-title">{{ 'NAVIGATION.FAQ' | translate }}</span></a>
+										</li>
+										<li class="menu4" id="search">
+											<div class="input-group">
+												<input type="text" name="search" placeholder="Search..." value="" class="form-control input-lg">
+												<span class="input-group-addon"><span class="button-search fa fa-search"></span></span>
+											</div>
+										</li>
+										<!-- <li class="menu5">
+											<a href="index.php?route=product/category&amp;path=63"><span class="menu-title">Phone cases</span></a>
+										</li>
+										<li class="menu6">
+											<a href="index.php?route=product/category&amp;path=64"><span class="menu-title">Ipad tablets</span></a>
+										</li> -->
+									</ul>				
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				
+			</div>				
+		</div>	
+	</div>
+</section>
+
+
+
+<!-- <div class="main-menu-wrap">
+	<div class="menu-bar">
+		<nav>
+			<ul class="main-menu">
+				MENU ITEM
+				<li class="menu-item">
+					<a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">{{ 'NAVIGATION.DIRECTORY' | translate }}</a>
+				</li>
+				/MENU ITEM
+				
+				MENU ITEM
+				<li class="menu-item">
+					<a [routerLink]="['/integration']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">{{ 'NAVIGATION.INTEGERATION' | translate }}</a>
+				</li>
+				/MENU ITEM
+				
+				MENU ITEM
+				<li class="menu-item">
+					<a [routerLink]="['/developer']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">{{ 'NAVIGATION.DEVELOPER' | translate }}</a>
+				</li>
+				/MENU ITEM
+				
+				MENU ITEM
+				<li class="menu-item">
+					<a [routerLink]="['/faq']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">{{ 'NAVIGATION.FAQ' | translate }}</a>
+				</li>
+				/MENU ITEM
+			</ul>
+		</nav>
+		<form class="search-form">
+			<input type="text" class="rounded" name="search" id="search_products" placeholder="Search here...">
+			<i class="fa fa-search fa-2x" > </i>
+		</form>
+	</div>
+</div> -->

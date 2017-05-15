@@ -1,0 +1,64 @@
+<!-- Navigation -->
+<nav class="navbar navbar-fixed-top navbar-mp mg-bottom-0 border-bottom-1 header-top" role="navigation">
+    <div class="col-sm-12">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand heading -large pad-top-8 pad-bottom-8 pad-right-8 pad-left-8 mg-bottom-0" href="https://www.cloudwords.com/" >
+            	<img src="https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=185&amp;name=cw-logo-white.png" class="hs-image-widget " style="width:185px;border-width:0px;border:0px;" width="185" alt="cw-logo-white.png" title="cw-logo-white.png" srcset="https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=93&amp;name=cw-logo-white.png 93w, https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=185&amp;name=cw-logo-white.png 185w, https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=278&amp;name=cw-logo-white.png 278w, https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=370&amp;name=cw-logo-white.png 370w, https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=463&amp;name=cw-logo-white.png 463w, https://www.cloudwords.com/hs-fs/hubfs/cw-logo-white.png?t=1494441484857&amp;width=555&amp;name=cw-logo-white.png 555w" sizes="(max-width: 185px) 100vw, 185px">
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pull-right">
+            <ul class="nav navbar-nav right-navs">
+                <li>
+                    <a href="#" class="border-right">Get Started</a>
+                </li>
+                <li>
+                    <a href="#">Documentation</a>
+                </li>
+                <li>
+                    <a href="#">Download</a>
+                </li>
+                <li class="login">
+                    <a href="https://app.cloudwords.com/" >{{'SIGNIN' | translate}}</a>
+                </li>
+                <!-- <li>
+                	<a href="#" class="lang-select">
+	                    <select #langSelect (change)="translate.use(langSelect.value)">
+	                    	<option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+	                    </select>
+                    </a>
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+					    {{translate.getLangs()[0]}}
+					    <span class="caret"></span>
+					</a>
+                    <ul class="dropdown-menu">
+					  <li *ngFor="let lang of translate.getLangs()" [value]="lang" ><a tabindex="-1" href="#">{{ lang }}</a></li>
+					</ul>
+					
+                </li> -->
+                
+                <!--
+                <li dropdown (isOpenChange)="toggled($event)" class="border-right-1" *ngIf="languageDetailsLoaded" >
+                	<a href class="btn" dropdownToggle (click)="false"><span class="flag-icon flag-icon-{{getCountryCode(translate.currentLang)}}"></span> {{getLanguageName(translate.currentLang)}}
+                		<span class="caret"></span>
+                	</a>
+				    <ul *dropdownMenu class="dropdown-menu">
+				      <li *ngFor="let lang of languages">
+				        <a class="dropdown-item" href="#" (click)="changeLanguage(lang)"><span class="flag-icon flag-icon-{{getCountryCode(lang)}}"></span> {{getLanguageName(lang)}}</a>
+				      </li>
+				    </ul>
+                </li>
+                -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

@@ -1,0 +1,138 @@
+// Functions
+
+// Unit Conversion
+
+// strip-unit($num)
+//
+// Strip units from values.
+//
+// $num       - Value to be stripped.
+// @returns   - number
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// em()
+//
+//  Convert pixel values to ems.
+//
+// $target    - Value to convert to ems.
+// $context   - The context the conversion is based on. Defaults to `$base-font-size`
+// @requires  - `$base-font-size` / `@strip-units`
+// @returns   - number
+
+@function em($target, $context: $base-font-size) {
+  @if not unitless($target) {
+    $target: strip-units($target);
+  }
+  @if not unitless($context) {
+    $context: strip-units($context);
+  }
+  @if $target == 0 { @return 0 }
+  @return $target / $context + 0em;
+}
+// rem()
+//
+// Convert pixel values to rems.
+//
+// $target    - Value to convert to ems.
+// $context   - The context the conversion is based on. Defaults to `$base-font-size`
+// @requires  - `$base-font-size` / `@strip-units`
+// @returns   - number
+
+@function rem($target, $context: $base-font-size) {
+  @if not unitless($target) {
+    $target: strip-units($target);
+  }
+  @if not unitless($context) {
+    $context: strip-units($context);
+  }
+  @if $target == 0 { @return 0 }
+  @return $target / $context + 0rem;
+}
+
+// px()
+//
+// Convery em values to pixels.
+//
+// $target    - Value to convert to ems.
+// $context   - The context the conversion is based on. Defaults to `$base-font-size`
+// @requires  - `$base-font-size` / `@strip-units`
+// @returns   - number
+
+@function px($target, $context: $base-font-size) {
+  @if not unitless($target) {
+    $pxval: strip-units($target);
+  }
+  @if not unitless($context) {
+    $base: strip-units($context);
+  }
+  @if $target == 0 { @return 0 }
+  @return $target * $context + 0px;
+}
+
+// Map Functions
+//
+// Styleguide 11.2
+
+// map-has-nested-keys($map)
+//
+// $map       - Parent map to get values from.
+// @returns   - boolean
+
+@function map-has-nested-keys($map, $keys...) {
+  @each $key in $keys {
+    @if not map-has-key($map, $key) {
+      @return false;
+    }
+    $map: map-get($map, $key);
+  } @return true;
+}
+
+// map-deep-get($map)
+//
+// $map       - Parent map to get values from.
+// @returns   - `$map`
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  } @return $map;
+}
+
+// z()
+//
+// @requires  - `@map-has-nested-keys` / `@map-deep-get` / `$zindex`
+// @returns   - `map-deep-get($zindex, $indexes...)`
+
+@function z($indexes...) {
+  @if not map-has-nested-keys($zindex, $indexes...) {
+    @warn 'No index found for `#{inspect($indexes...)}` in $zindex map. Property omitted.';
+  } @return map-deep-get($zindex, $indexes...);
+}
+
+// bp()
+//
+// @requires  - `@map-has-nested-keys` / `@map-deep-get` / `$breakpoints`
+// @returns   - `map-deep-get($breakpoints, $point...)`
+
+@function bp($point...) {
+  @if not map-has-nested-keys($breakpoints, $point...) {
+    @warn 'No breakpoint found for `#{inspect($point...)}` in $breakpoints map. Property omitted.';
+  } @return map-deep-get($breakpoints, $point...);
+}
+
+@function str-replace($string, $search, $replace: "") {
+	$index: str-index($string, $search);
+
+	@if $index {
+		@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+
+	@return $string;
+}
+
+@function calculate-width ($col-span) {
+    @return 100% / $col-span 
+}
