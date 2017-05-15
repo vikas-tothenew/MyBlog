@@ -1,0 +1,12 @@
+{
+  "APPLICATION":{
+  	"TITLE":"سوق البائع"
+  },
+  "SIGNIN":"تسجيل الدخول",
+  "NAVIGATION": {
+    "DIRECTORY": "دليل",
+    "INTEGERATION": "عمليات الدمج",
+    "DEVELOPER":"صفحة المطور",
+    "FAQ":"التعليمات"
+  }
+}

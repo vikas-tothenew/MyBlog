@@ -1,0 +1,749 @@
+[
+  {
+    "categoryName": "Marketing Automation",
+    "categoryId": 1,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-cogs",
+    "integrations": [
+      {
+        "name": "Hubspot",
+        "id": 11,
+        "imageUrl": "icons/Hubspot-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"Sample Video",
+          "description":"description of video",
+          "cover":"http://foo-baar/video.jpg",
+          "url":"http://content/videos/video.mp4"
+        },
+        "screenshots":[{
+          "title":"Screenshot 1",
+          "description":"screenshot Description",
+          "url":"http://sample-screens/screen1.jpg"
+        }],
+        "caseStudy":[{
+          "title":"Heading ",
+          "description":"case study description",
+          "link":"http://sample.com/case1"
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Oracle Marketing Cloud",
+        "id": 12,
+        "imageUrl": "icons/Oracle-Marketing-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Salesforce Marketing Cloud",
+        "id": 13,
+        "imageUrl": "icons/Salesforce-Marketing-Cloud-400x400-2.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Marketo",
+        "id": 14,
+        "imageUrl": "icons/Marketo-400x400-2.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Enterprise File Sharing",
+    "categoryId": 2,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-share-square-o",
+    "integrations": [
+      {
+        "name": "Google Drive",
+        "id": 22,
+        "imageUrl": "icons/Google-Drive-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "One Drive",
+        "id": 23,
+        "imageUrl": "icons/One-Drive-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Box",
+        "id": 24,
+        "imageUrl": "icons/Box-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Dropbox",
+        "id": 25,
+        "imageUrl": "icons/Drop-Box-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":"",
+          "link":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Content Management",
+    "categoryId": 3,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-folder-open",
+    "integrations": [
+      {
+        "name": "Adobe Experience Manager",
+        "id": 31,
+        "imageUrl": "icons/Adobe-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Drupal",
+        "id": 32,
+        "imageUrl": "icons/Drupal-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Sitecore",
+        "id": 33,
+        "imageUrl": "icons/Sitecore-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Umbraco",
+        "id": 34,
+        "imageUrl": "icons/Umbraco-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Oracle WebCenter Sites",
+        "id": 35,
+        "imageUrl": "icons/Oracle-Web-Center-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "SDL Web",
+        "id": 36,
+        "imageUrl": "icons/SDL-Web-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "WordPress",
+        "id": 37,
+        "imageUrl": "icons/Wordpress-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Content Marketing",
+    "categoryId": 4,
+    "catagoryImageUrl": "",
+    "categoryIcon": "fa fa-bar-chart",
+    "integrations": [
+      {
+        "name": "Oracle Content Marketing",
+        "id": 41,
+        "imageUrl": "icons/Oracle-Marketing-400x400-1.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Translation Management",
+    "categoryId": 5,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-file-text",
+    "integrations": [
+      {
+        "name": "SDL WorldServer",
+        "id": 51,
+        "imageUrl": "icons/SDL-Web-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Lionbridge On-Demand",
+        "id": 52,
+        "imageUrl": "icons/Lionbridge-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Moravia",
+        "id": 53,
+        "imageUrl": "icons/Moravia-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "SDL Cloud",
+        "id": 54,
+        "imageUrl": "icons/SDL-Cloud-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Knowledge Management",
+    "categoryId": 6,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-book",
+    "integrations": [
+      {
+        "name": "Salesforce Knowledge",
+        "id": 61,
+        "imageUrl": "icons/Salesforce-Marketing-Cloud-400x400-2.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Machine Translation",
+    "categoryId": 7,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-magic",
+    "integrations": [
+      {
+        "name": "Google Translate",
+        "id": 71,
+        "imageUrl": "icons/Google-Translate-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Microsoft Translate",
+        "id": 72,
+        "imageUrl": "icons/Microsoft-Translate-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "IBM Watson",
+        "id": 73,
+        "imageUrl": "icons/IBM-Watson-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Lilt",
+        "id": 74,
+        "imageUrl": "icons/Lilt-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "CAT Tools",
+    "categoryId": 8,
+    "catagoryImageUrl": "",
+    "categoryIcon":"fa fa-laptop",
+    "integrations": [
+      {
+        "name": "Lilt",
+        "id": 81,
+        "imageUrl": "icons/Lilt-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      },
+      {
+        "name": "Memsource",
+        "id": 82,
+        "imageUrl": "icons/Memsource-400x400.png",
+        "description": "a short description",
+        "content": "a longer amount of content...",
+        "video":{
+          "title":"",
+          "description":"",
+          "cover":"",
+          "url":""
+        },
+        "screenshots":[{
+          "title":"",
+          "description":"",
+          "url":""
+        }],
+        "caseStudy":[{
+          "title":"",
+          "description":""
+        }],
+        "keyFeatures":[
+          "feature 1","feature 2"
+        ]
+      }
+    ]
+  }
+]

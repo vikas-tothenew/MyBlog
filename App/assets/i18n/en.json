@@ -1,0 +1,12 @@
+{
+  "APPLICATION":{
+  	"TITLE":"Marketplace"
+  },
+  "SIGNIN":"Sandbox Login",
+  "NAVIGATION": {
+    "DIRECTORY": "Directory",
+    "INTEGERATION": "Integeration Details",
+    "DEVELOPER":"Developer Page",
+    "FAQ":"FAQ"
+  }
+}

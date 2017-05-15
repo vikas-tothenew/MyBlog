@@ -1,0 +1,12 @@
+{
+  "APPLICATION":{
+  	"TITLE":"MarketPlace du vendeur"
+  },
+  "SIGNIN":"Se connecter",
+  "NAVIGATION": {
+    "DIRECTORY": "Annuaire",
+    "INTEGERATION": "Détails en entier",
+    "DEVELOPER":"Page de développeur",
+    "FAQ":"FAQ"
+  }
+}
